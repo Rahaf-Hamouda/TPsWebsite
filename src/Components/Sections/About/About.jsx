@@ -1,4 +1,5 @@
 import React from "react";
+import './About.css'
 import gasStationImage from "./../../../assets/Images/gasstation.jpg";
 
 const About = () => {
@@ -29,24 +30,18 @@ const About = () => {
             ))}
           </div>
         </div>
-
-       {/* الصورة على اليمين */}
         <div className="w-1/2 flex justify-end px-4 relative">
-          <img
-            src={gasStationImage}
-            alt="Gas Station"
-            className="rounded-lg shadow-md max-w-full"
-          />
-
-          {/* صندوق الرؤية المستقبلية بشفافية وضبابية */}
+<img
+  src={gasStationImage}
+  alt="Gas Station"
+  className="rounded-lg shadow-md max-w-full grow-img"
+/>
 <div className="absolute left-6 bottom-6 bg-transparent backdrop-blur-md p-6 rounded-lg shadow-lg max-w-sm">
   <h2 className="text-xl font-bold text-white">Future Vision</h2>
   <p className="mt-2 text-gray-300 text-lg">
     We strive to enhance fuel stations by improving efficiency, sustainability, and service quality. Our goal is to create a more seamless refueling experience while reducing environmental impact, ensuring a future where fuel stations are more convenient and eco-friendly.
   </p>
 </div>
-
-
         </div>
       </div>
     </section>
