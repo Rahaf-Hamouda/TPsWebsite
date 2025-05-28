@@ -2,9 +2,9 @@
 import './App.css'
 import Footer from './Components/Nav/Footer'
 import Navbar from './Components/Nav/Navbar'
-import About from './Components/Sections/About'
-import Contact from './Components/Sections/Contact'
-import Home from './Components/Sections/Home'
+import About from './Components/Sections/About/About'
+import Contact from './Components/Sections/Contact/Contact'
+import Home from './Components/Sections/Home/Home'
 
 function App() {
  
@@ -15,6 +15,7 @@ function App() {
     <About/>
     <Contact/>
     <Footer/>
+
     </>
   )
 }
